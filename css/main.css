@@ -1,0 +1,46 @@
+nav{
+	box-sizing: border-box;
+}
+.cajita-master {
+	display: table;
+}
+.row {
+	display: table-row;
+}
+.cell{
+	display: table-cell;
+}
+.azulin{
+	background: #6666ff;
+}
+.verde{
+	background: #33e159;
+}
+.naranjita{
+	background: #FCB77B;
+}
+.rojo{
+	background: #db0626;
+}
+.sombra {
+	background: #000;
+	display: none;
+	font-size: 20px;
+}
+.cell, .sombra {
+	width: 150px;
+	height: 150px;
+}
+.cell:hover + .sombra{
+	display: block;
+}
+.azulin1 {
+	color: #6666ff;
+}
+.verde2 {
+	color: #33e159;
+
+}
+.naranjita3 {
+	color: #FCB77B;
+}
