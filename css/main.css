@@ -1,10 +1,12 @@
 nav{
 	box-sizing: border-box;
+
+
 }
 .cajita-master {
 	display: table;
 }
-.row {
+.fila {
 	display: table-row;
 }
 .cell{
@@ -12,6 +14,7 @@ nav{
 }
 .azulin{
 	background: #6666ff;
+
 }
 .verde{
 	background: #33e159;
@@ -25,14 +28,18 @@ nav{
 .sombra {
 	background: #000;
 	display: none;
-	font-size: 20px;
+	font-size: 19px;
+	font-family: 'Indie Flower', cursive;
 }
+
 .cell, .sombra {
-	width: 150px;
-	height: 150px;
+	width: 100px;
+	height: 100px;
 }
 .cell:hover + .sombra{
 	display: block;
+
+
 }
 .azulin1 {
 	color: #6666ff;
